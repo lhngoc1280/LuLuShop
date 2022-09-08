@@ -28,6 +28,9 @@
         <filter-name>AdminRoleFilter</filter-name>
         <url-pattern>/views/viewAdmin.jsp</url-pattern>
     </filter-mapping>
+        <welcome-file-list>
+        <welcome-file>home</welcome-file>
+    </welcome-file-list>
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>Controller.LoginServlet</servlet-class>
